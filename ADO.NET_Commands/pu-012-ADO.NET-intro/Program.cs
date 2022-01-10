@@ -68,8 +68,14 @@ namespace pu_012_ADO.NET_intro
                     Console.WriteLine(connection.State);
                     Console.WriteLine(connection.Database);
                     Console.WriteLine(connection.ConnectionString);
-                    Console.WriteLine("========================================");
-
+                    Console.WriteLine("===============Queries==================");
+                    /*var result = Queries.GetUserByEmail(connection);
+                    Console.WriteLine($"Result => {result}");*/
+                    //Queries.InsertUser(connection);
+                    //Queries.DeleteUser(connection);
+                    //Queries.GetAllUsers(connection);
+                    //Queries.UpdateUser(connection);
+                    Queries.GetUserById(connection);
                     Console.WriteLine("========================================");
                     
                 }
