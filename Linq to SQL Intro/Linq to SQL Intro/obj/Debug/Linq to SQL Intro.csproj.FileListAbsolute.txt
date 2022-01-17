@@ -1,0 +1,7 @@
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\bin\Debug\Linq to SQL Intro.exe.config
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\bin\Debug\Linq to SQL Intro.exe
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\bin\Debug\Linq to SQL Intro.pdb
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\obj\Debug\Linq to SQL Intro.csproj.AssemblyReference.cache
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\obj\Debug\Linq to SQL Intro.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\obj\Debug\Linq to SQL Intro.exe
+C:\Users\master\source\repos\Linq to SQL Intro\Linq to SQL Intro\obj\Debug\Linq to SQL Intro.pdb
