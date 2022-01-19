@@ -1,0 +1,7 @@
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\bin\Debug\Linq to SQL Procedure.exe.config
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\bin\Debug\Linq to SQL Procedure.exe
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\bin\Debug\Linq to SQL Procedure.pdb
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\obj\Debug\Linq to SQL Procedure.csproj.AssemblyReference.cache
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\obj\Debug\Linq to SQL Procedure.csproj.CoreCompileInputs.cache
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\obj\Debug\Linq to SQL Procedure.exe
+C:\Users\master\source\repos\Linq to SQL Procedure\Linq to SQL Procedure\obj\Debug\Linq to SQL Procedure.pdb

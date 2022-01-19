@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="STEP" Class="UsersDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=10.7.101.197;Initial Catalog=STEP;Persist Security Info=True;User ID=test" SettingsObjectName="Linq_to_SQL_Procedure.Properties.Settings" SettingsPropertyName="STEPConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="UsersID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Function Name="dbo.DeleteUser" Method="DeleteUser">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.InsertUser" Method="InsertUser">
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="Surname" Parameter="surname" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="Phone" Parameter="phone" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="Age" Parameter="age" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.GetUsers" Method="GetUsers">
+    <ElementType Name="GetUsersResult">
+      <Column Name="UsersID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.UpdateUser" Method="UpdateUser">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="Surname" Parameter="surname" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="Phone" Parameter="phone" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Email" Parameter="email" Type="System.String" DbType="NVarChar(255)" />
+    <Parameter Name="Age" Parameter="age" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
