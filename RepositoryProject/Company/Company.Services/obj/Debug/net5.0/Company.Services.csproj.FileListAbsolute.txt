@@ -1,0 +1,14 @@
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\bin\Debug\net5.0\Company.Services.deps.json
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\bin\Debug\net5.0\Company.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\bin\Debug\net5.0\ref\Company.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\bin\Debug\net5.0\Company.Services.pdb
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.csproj.AssemblyReference.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.AssemblyInfoInputs.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.AssemblyInfo.cs
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.csproj.CoreCompileInputs.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\ref\Company.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\obj\Debug\net5.0\Company.Services.pdb
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\bin\Debug\net5.0\Company.Data.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Services\bin\Debug\net5.0\Company.Data.pdb
