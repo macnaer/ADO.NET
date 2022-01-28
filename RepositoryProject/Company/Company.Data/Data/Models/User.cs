@@ -13,5 +13,7 @@ namespace Company.Data.Data.Models
         public string Surname { get; set; }
         public string Position { get; set; }
         public int Salary { get; set; }
+        public int CompanyId { get; set; }
+        public ITCompany Company { get; set; }
     }
 }

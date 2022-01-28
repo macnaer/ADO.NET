@@ -2,12 +2,12 @@
 
 namespace Company.Data.Migrations
 {
-    public partial class Initial : Migration
+    public partial class Seedv1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "ITCompany",
+                name: "ITCompanies",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -16,7 +16,7 @@ namespace Company.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ITCompany", x => x.Id);
+                    table.PrimaryKey("PK_ITCompanies", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -29,23 +29,28 @@ namespace Company.Data.Migrations
                     Surname = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Position = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Salary = table.Column<int>(type: "int", nullable: false),
-                    ITCompanyId = table.Column<int>(type: "int", nullable: true)
+                    CompanyId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Users", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Users_ITCompany_ITCompanyId",
-                        column: x => x.ITCompanyId,
-                        principalTable: "ITCompany",
+                        name: "FK_Users_ITCompanies_CompanyId",
+                        column: x => x.CompanyId,
+                        principalTable: "ITCompanies",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.Restrict);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.InsertData(
+                table: "ITCompanies",
+                columns: new[] { "Id", "Name" },
+                values: new object[] { 1, "Microsoft" });
+
             migrationBuilder.CreateIndex(
-                name: "IX_Users_ITCompanyId",
+                name: "IX_Users_CompanyId",
                 table: "Users",
-                column: "ITCompanyId");
+                column: "CompanyId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -54,7 +59,7 @@ namespace Company.Data.Migrations
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "ITCompany");
+                name: "ITCompanies");
         }
     }
 }

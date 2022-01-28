@@ -1,4 +1,5 @@
-﻿using Company.Data.Data.Models;
+﻿using Company.Data.Data.Initializer;
+using Company.Data.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,14 +15,21 @@ namespace Company.Data.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Server=194.44.93.225;Database=EFRepository;User Id=test;Password=1;MultipleActiveResultSets=True;");
+            //optionsBuilder.UseSqlServer(@"Server=194.44.93.225;Database=EFRepository;User Id=test;Password=1;MultipleActiveResultSets=True;");
+            optionsBuilder.UseSqlServer(@"Server=52.168.23.170;Database=EFRepository;User Id=sa;Password=RpYP>$K((2Y$:_6K;MultipleActiveResultSets=True;");
             }
-        
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<ITCompany>().Property(c => c.Name).IsRequired().HasMaxLength(60).HasColumnType("varchar(60)");
+
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.Company)
+                .WithMany(c => c.Users)
+                .HasForeignKey(u => u.CompanyId);
+
+            modelBuilder.Seed();
         }
 
         public DbSet<User> Users { get; set; }

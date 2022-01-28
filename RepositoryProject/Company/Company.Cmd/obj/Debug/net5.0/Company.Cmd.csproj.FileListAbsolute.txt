@@ -64,3 +64,4 @@ C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Cmd\b
 C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Cmd\bin\Debug\net5.0\Company.Services.dll
 C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Cmd\bin\Debug\net5.0\Company.Data.pdb
 C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Cmd\bin\Debug\net5.0\Company.Services.pdb
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\RepositoryProject\Company\Company.Cmd\obj\Debug\net5.0\Company.Cmd.csproj.CopyComplete
