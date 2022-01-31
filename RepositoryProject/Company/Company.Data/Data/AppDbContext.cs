@@ -15,8 +15,7 @@ namespace Company.Data.Data
         {
             if (!optionsBuilder.IsConfigured)
             {
-            //optionsBuilder.UseSqlServer(@"Server=194.44.93.225;Database=EFRepository;User Id=test;Password=1;MultipleActiveResultSets=True;");
-            optionsBuilder.UseSqlServer(@"Server=52.168.23.170;Database=EFRepository;User Id=sa;Password=RpYP>$K((2Y$:_6K;MultipleActiveResultSets=True;");
+                optionsBuilder.UseSqlServer(@"Server=194.44.93.225;Database=EFRepository;User Id=test;Password=Qwerty-1;MultipleActiveResultSets=True;");
             }
         }
 
@@ -29,11 +28,28 @@ namespace Company.Data.Data
                 .WithMany(c => c.Users)
                 .HasForeignKey(u => u.CompanyId);
 
+            modelBuilder.Entity<StudentCourse>()
+                .HasKey(t => new { t.StudentId, t.CourseId });
+
+            modelBuilder.Entity<StudentCourse>()
+                .HasOne(sc => sc.Student)
+                .WithMany(s => s.StudentCourses)
+                .HasForeignKey(sc => sc.StudentId);
+
+            modelBuilder.Entity<StudentCourse>()
+               .HasOne(sc => sc.Course)
+               .WithMany(s => s.StudentCourses)
+               .HasForeignKey(sc => sc.CourseId);
+
+
+
             modelBuilder.Seed();
         }
 
         public DbSet<User> Users { get; set; }
         public DbSet<ITCompany> ITCompanies { get; set; }
+        public DbSet<Course> Course { get; set; }
+        public DbSet<Student> Student { get; set; }
 
     }
 }

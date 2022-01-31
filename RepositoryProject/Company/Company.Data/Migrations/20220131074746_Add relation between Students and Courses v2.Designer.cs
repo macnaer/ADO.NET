@@ -3,14 +3,16 @@ using Company.Data.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Company.Data.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220131074746_Add relation between Students and Courses v2")]
+    partial class AddrelationbetweenStudentsandCoursesv2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -31,18 +33,6 @@ namespace Company.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Course");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "C++"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Networking"
-                        });
                 });
 
             modelBuilder.Entity("Company.Data.Data.Models.ITCompany", b =>
@@ -82,23 +72,6 @@ namespace Company.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Student");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Stiven Anderson"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Jack Sallivan"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Emma Sallivan"
-                        });
                 });
 
             modelBuilder.Entity("Company.Data.Data.Models.StudentCourse", b =>
@@ -117,26 +90,6 @@ namespace Company.Data.Migrations
                     b.HasIndex("CourseId");
 
                     b.ToTable("StudentCourse");
-
-                    b.HasData(
-                        new
-                        {
-                            StudentId = 1,
-                            CourseId = 1,
-                            Id = 1
-                        },
-                        new
-                        {
-                            StudentId = 2,
-                            CourseId = 2,
-                            Id = 2
-                        },
-                        new
-                        {
-                            StudentId = 3,
-                            CourseId = 2,
-                            Id = 3
-                        });
                 });
 
             modelBuilder.Entity("Company.Data.Data.Models.User", b =>

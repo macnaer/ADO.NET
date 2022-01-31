@@ -5696,7 +5696,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\macnaer\\.nuget\\packages\\": {},
+    "C:\\Users\\k2\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -5705,14 +5705,14 @@
       "projectUniqueName": "C:\\Users\\macnaer\\Desktop\\ADo.NET\\ADO.NET\\RepositoryProject\\Company\\Company.Cmd\\Company.Cmd.csproj",
       "projectName": "Company.Cmd",
       "projectPath": "C:\\Users\\macnaer\\Desktop\\ADo.NET\\ADO.NET\\RepositoryProject\\Company\\Company.Cmd\\Company.Cmd.csproj",
-      "packagesPath": "C:\\Users\\macnaer\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\k2\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\macnaer\\Desktop\\ADo.NET\\ADO.NET\\RepositoryProject\\Company\\Company.Cmd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\macnaer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\k2\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -39,6 +39,56 @@ namespace Company.Data.Data.Initializer
                         CompanyId = 1
                     }
                 );
+            modelBuilder.Entity<Student>().HasData(
+                    new Student
+                    {
+                        Id = 1,
+                        Name = "Stiven Anderson",
+                    },
+                    new Student
+                    {
+                        Id = 2,
+                        Name = "Jack Sallivan",
+                    },
+                     new Student
+                     {
+                          Id = 3,
+                          Name = "Emma Sallivan",
+                     }
+                );
+
+            modelBuilder.Entity<Course>().HasData(
+                   new Course
+                   {
+                       Id = 1,
+                       Name = "C++",
+                   },
+                   new Course
+                   {
+                       Id = 2,
+                       Name = "Networking"
+                   }
+               );
+            modelBuilder.Entity<StudentCourse>().HasData(
+                    new StudentCourse
+                    {
+                        Id = 1,
+                        StudentId = 1,
+                        CourseId = 1
+                    },
+                    new StudentCourse
+                    {
+                         Id = 2,
+                         StudentId = 2,
+                         CourseId = 2
+                    },
+                    new StudentCourse
+                    {
+                        Id = 3,
+                        StudentId = 3,
+                        CourseId = 2
+                    }
+                );
         }
     }
 }
