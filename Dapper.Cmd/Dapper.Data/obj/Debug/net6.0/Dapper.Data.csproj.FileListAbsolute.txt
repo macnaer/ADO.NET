@@ -1,0 +1,12 @@
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\bin\Debug\net6.0\Dapper.Data.deps.json
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\bin\Debug\net6.0\Dapper.Data.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\bin\Debug\net6.0\ref\Dapper.Data.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\bin\Debug\net6.0\Dapper.Data.pdb
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.csproj.AssemblyReference.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.AssemblyInfoInputs.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.AssemblyInfo.cs
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.csproj.CoreCompileInputs.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\ref\Dapper.Data.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dapper.Data\obj\Debug\net6.0\Dapper.Data.pdb

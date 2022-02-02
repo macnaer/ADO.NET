@@ -1,0 +1,15 @@
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\bin\Debug\net6.0\Dappaer.Services.deps.json
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\bin\Debug\net6.0\Dappaer.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\bin\Debug\net6.0\ref\Dappaer.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\bin\Debug\net6.0\Dappaer.Services.pdb
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\bin\Debug\net6.0\Dapper.Data.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\bin\Debug\net6.0\Dapper.Data.pdb
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.csproj.AssemblyReference.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.AssemblyInfoInputs.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.AssemblyInfo.cs
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.csproj.CoreCompileInputs.cache
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.csproj.CopyComplete
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\ref\Dappaer.Services.dll
+C:\Users\macnaer\Desktop\ADo.NET\ADO.NET\Dapper.Cmd\Dappaer.Services\obj\Debug\net6.0\Dappaer.Services.pdb
